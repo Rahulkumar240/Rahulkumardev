@@ -8,10 +8,12 @@ import About from './About';
 import resume from '../assets/RahulKumar_Resume.pdf'
 import Skills from './Skills';
 import Experience from './Experience';
+import Contact from './Contact';
+import Projects from './Projects';
 
 const Home = () => {
   return (
-    <>
+    <div className="min-h-screen w-full bg-gradient-to-br from-black via-[#0a0f1a] to-[#05080f] text-white">
     <section id='home' className='flex items-center gap-10 mt-16 px-12 max-w-7xl mx-auto'>
 
       <div className='flex-[2]'>
@@ -58,9 +60,11 @@ const Home = () => {
     </section>
 
     <About />
+    <Projects />
     <Skills />
     <Experience />
-    </>
+    <Contact />
+    </div>
   )
 }
 

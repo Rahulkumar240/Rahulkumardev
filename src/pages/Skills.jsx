@@ -73,7 +73,7 @@ const Skills = () => {
     <section id='skills' className='mt-16 w-full px-12 max-w-7xl mx-auto'>
       <div>
         <h1 className='font-bold text-4xl text-left'>Skills</h1>
-        <hr className='border-t-2 border-gray-300 my-4'></hr>
+        <div className="w-full h-1 bg-gradient-to-r from-blue-500 to-purple-500 mt-4 rounded-full"></div>
         <div className="skill-card flex flex-wrap gap-8 mt-8 items-center justify-center">
           {skills.map((skill, index) => (
             <div key={index} className="flex flex-col items-center bg-white bg-opacity-10 rounded-lg p-4 w-32 justify-center text-black hover:scale-110 hover:transition-transform duration-300">
