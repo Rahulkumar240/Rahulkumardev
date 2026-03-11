@@ -4,10 +4,6 @@ const Skills = () => {
 
   const skills = [
     {
-      name: 'python',
-      icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968350.png',
-    },
-    {
       name: 'DSA',
       icon: 'https://media.licdn.com/dms/image/v2/D5612AQG1pE_H-m9TgQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1677414547742?e=2147483647&v=beta&t=iHWyjlmjOE9aNKAIVKvwFipkJSALPrJwuebad8u5InE',
     },
@@ -16,16 +12,28 @@ const Skills = () => {
       icon: 'https://cdn-icons-png.flaticon.com/512/6132/6132222.png',
     },
     {
-      name: 'C',
-      icon: 'https://www.clipartmax.com/png/middle/240-2409409_c-programming-icon-c-programming-language-icon.png',
-    },
-    {
       name: 'Java',
       icon: 'https://cdn-icons-png.flaticon.com/512/226/226777.png',
     },
     {
+      name: 'SQL',
+      icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968342.png',
+    },
+    {
+      name: 'python',
+      icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968350.png',
+    },
+    {
+      name: 'Numpy',
+      icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn5o2UmZneaZUdoop6FljZoAatSeOLn68iRw&s',
+    },
+    {
       name: 'JavaScript',
       icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968292.png',
+    },
+    {
+      name: 'C',
+      icon: 'https://www.clipartmax.com/png/middle/240-2409409_c-programming-icon-c-programming-language-icon.png',
     },
     {
       name: 'React',
@@ -54,10 +62,6 @@ const Skills = () => {
     {
       name: 'GitHub',
       icon: 'https://cdn-icons-png.flaticon.com/512/733/733553.png',
-    },
-    {
-      name: 'SQL',
-      icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968342.png',
     },
     {
       name: 'HTML',

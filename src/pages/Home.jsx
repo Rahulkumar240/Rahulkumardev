@@ -56,6 +56,7 @@ const Home = () => {
             <FaKaggle className='hover:text-[#00FFFF] cursor-pointer' />
           </a>
         </div>
+        <p className='pt-4 text-[#00FFFF] font-light '>Let's Connect</p>
       </div>
     </section>
 
